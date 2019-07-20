@@ -1,0 +1,123 @@
+
+body{
+
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+
+}
+nav{
+    background-color: #24272a;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > a{
+
+color:#fff;
+text-emphasis: none;
+padding-right: 20px;
+}
+
+a:hover{
+    background-color: yellow;
+    color: black;
+
+}
+
+a:active{
+    background-color: yellow;
+    font-size: 30px;
+    color: black;
+}
+
+#bedu-logo{
+
+    margin-left: 20px;
+    width: 50px;
+}
+
+.home{
+    margin: auto;
+    padding: 40px;
+    background-image: url(../imgs/back.jpg);
+    height: 720px;
+}
+
+.home > p{
+    font-size: 20px;
+    color: #24272a;
+    text-align: center;
+    margin: auto;
+}
+.actividades p{
+    color: cadetblue;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 30px;
+}
+
+#iconos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 6em;
+}
+
+
+@media only screen and (max-width: 600px){
+#iconos{
+    flex-direction: column;
+}
+i{
+    margin-top: 40px;
+}
+}
+
+
+.loMasVisitado{
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    margin: 50px auto;
+    grid-column-gap: 20px;
+    width: 80%;
+}
+
+h4{
+    font-size: 3em;
+    color: #24272a;
+    text-align: center;
+}
+.grid-item {
+  }
+#Destino1{
+    background-image: url(../imgs/destino1.jpg);
+    height: 350px;
+}
+#Destino2{
+    background-image: url(../imgs/destino2.jpg);
+    height: 350px;
+}
+
+#Destino3{
+    background-image: url(../imgs/destino3.jpg);
+    height: 350px;
+}
+
+
+section{
+    margin-top: 40px; 
+}
+
+
+footer{
+    background-color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+    display: block;
+}
